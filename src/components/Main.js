@@ -8,10 +8,6 @@ function Main () {
         <div>
               <img className="logo" src={googleLogo}/>    
         </div>
-            
-    
-
-        
       );
 }
 

@@ -15,14 +15,15 @@ function App() {
     
       <Main></Main>
 
-      <Input></Input>
+      <Input prop4='Pesquise no Google ou digite um URL' prop6={80}></Input>
 
-      <Button></Button>
+      <Button prop1='Pesquisar Google' prop2={25} prop3></Button>
+    
+      <Button prop1='Estou com sorte' prop2={30} prop3></Button>
 
-
-
+      
     </div>
   );
-}
+};
 
 export default App;
